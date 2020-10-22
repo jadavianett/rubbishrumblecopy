@@ -1,0 +1,217 @@
+h1 {
+  text-align: center;
+  color: #56c0fd;
+  font-family: "VT323", monospace;
+  font-size: 128px;
+  text-shadow: 5px 5px 5px #000000;
+  animation: heartBeat;
+  animation-duration: 5s;
+}
+h6 {
+  animation: jackInTheBox;
+  animation-duration: 1s;
+}
+
+.container {
+  align-items: center;
+  /* display: flex; */
+  justify-content: center;
+}
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../images/background_3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+main {
+  flex: 1 0 auto;
+}
+
+h5 {
+  font-family: "VT323", monospace;
+  color: white;
+}
+
+h6 {
+  text-align: center;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 45px;
+  text-shadow: 5px 5px 5px #000000;
+}
+form {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.enemy-character-name {
+  align-self: right;
+}
+
+#usernameInput {
+  background-color: #0000006f;
+  align-items: center;
+}
+.btn {
+  color: black;
+}
+
+#view-all-characters {
+  margin: auto;
+  top: -50px;
+  margin-left: 425px;
+}
+
+#advantage-text {
+  text-align: center;
+  color: white;
+}
+.carousel .carousel-item {
+  height: 240px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.card-content {
+  color: white !important;
+  /* text-shadow: 5px 5px 5px #000000; */
+}
+label {
+  color: white !important;
+}
+#compCharacter {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: hue-rotate(180deg);
+  margin: auto;
+  padding: 30px;
+}
+#userCharacter {
+  margin: auto;
+  padding: 30px;
+}
+#compHPbar {
+  background-color: red;
+  height: 25px;
+  border: white solid;
+  border-radius: 2px;
+  margin: 15px;
+}
+#playerHPbar {
+  background: green;
+  height: 25px;
+  border: white solid;
+  border-radius: 2px;
+  margin: 15px;
+}
+.characterCol {
+  display: grid;
+}
+.actionBtns {
+  display: flex;
+}
+#attackBtn {
+  background-color: red;
+  font-family: "VT323", monospace;
+  width: 50%;
+  height: 40px;
+  margin: 5px;
+  color: white;
+  font-size: larger;
+}
+#defendBtn {
+  background-color: blue;
+  font-family: "VT323", monospace;
+  width: 50%;
+  height: 40px;
+  margin: 5px;
+  color: white;
+  font-size: larger;
+}
+#strikeBtn {
+  background-color: purple;
+  font-family: "VT323", monospace;
+  width: 50%;
+  height: 40px;
+  margin: 5px;
+  color: white;
+  font-size: larger;
+}
+#counterBtn {
+  background-color: orangered;
+  font-family: "VT323", monospace;
+  width: 50%;
+  height: 40px;
+  margin: 5px;
+  color: white;
+  font-size: larger;
+}
+#character-name-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00000069;
+  width: 400px;
+}
+#character_name,
+#first_name {
+  color: white;
+  text-align: center;
+  font-size: 15pt;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close-modal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.chooseCharacterGrid {
+  width: 15%;
+  border: 2px;
+  border: #0000006f solid;
+  display: inline-grid;
+  padding: 5px;
+  margin: 5px;
+}
+
+.delete-character {
+  margin-top: 10px;
+}
